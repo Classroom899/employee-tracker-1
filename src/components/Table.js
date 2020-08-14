@@ -16,7 +16,7 @@ export default function ({ columns, data }) {
                 </tr>
             </thead>
             <tbody>
-                    {data.map(row => <TableRow rowData={row} tag="td" />)}
+                    {data.map(row => <tr><TableRow rowData={row} tag="td" /></tr>)}
             </tbody>
         </table>
     </>); // empty div
