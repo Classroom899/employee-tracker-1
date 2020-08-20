@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.table-controls {
+  display: flex;
+}
+.table-controls > button {
+  margin: 0.75rem;
+}
